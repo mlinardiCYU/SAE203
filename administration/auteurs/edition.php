@@ -18,13 +18,14 @@ if ($formulaire_soumis) {
     $id = $_POST["id"];
     $nom = htmlentities($_POST["nom"]);
     $prenom = htmlentities($_POST["prenom"]);
-
+    $lien_twitter = $_POST["lien_twitter"]
+        
     $requete_brute = "
         UPDATE auteur
         SET 
             nom = '$nom',
             prenom = '$prenom',
-            A-COMPLETER
+            lien_twitter = '$lien_twitter'
         WHERE id = '$id'
     ";
 
