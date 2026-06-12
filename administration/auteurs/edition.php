@@ -23,9 +23,9 @@ if ($formulaire_soumis) {
     $requete_brute = "
         UPDATE auteur
         SET 
-            nom = '$nom',
-            prenom = '$prenom',
-            lien_twitter = '$lien_twitter'
+            surname = '$nom',
+            firstname = '$prenom',
+            twitter_link = '$lien_twitter'
         WHERE id = '$id'
     ";
 
