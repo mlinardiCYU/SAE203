@@ -20,7 +20,7 @@ if ($formulaire_soumis) {
     $prenom = htmlentities($_POST["prenom"]);
 
     $requete_brute = "
-        UPDATE A-REMPLACER 
+        UPDATE auteur
         SET 
             nom = '$nom',
             prenom = '$prenom',
